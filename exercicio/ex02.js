@@ -3,7 +3,11 @@
 
 let nome = 'Edesildo';
 let sobrenome = 'Santos';
-let cidade = 'Recife';
-let idade = 25;
 
-console.log('Meu nome é ' + nome + ' e meu sobrenome é ' + sobrenome + '.Minha cidade é ' + cidade +` tenho ${idade} de idade`);
+let nomeCompleto = nome + " " + sobrenome;
+
+let nomeCompletoTemplate = `${nome} ${sobrenome}`
+
+console.log("Usando concatenação " , nomeCompleto)
+console.log("Usando template strings" , nomeCompletoTemplate);
+
